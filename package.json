@@ -1,0 +1,30 @@
+{
+  "name": "@utils/gestiona-taxi-helpers",
+  "description": "Utilidades compartidas para aplicaciones de Gestiona Taxi",
+  "license": "MIT",
+  "author": "Meydodev",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./index.js",
+  "module": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "sideEffects": true,
+  "engines": {
+    "node": ">=18"
+  }
+}
